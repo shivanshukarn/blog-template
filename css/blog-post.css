@@ -13,8 +13,11 @@
 }
 
 @media (max-width:900px) {
+    .navbar{
+        width: 100vw!important;
+    }
     .th-post{
-        width: 100%;
+        width: 95%;
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -23,6 +26,18 @@
         flex-direction: column;
     }
     .also-read{
-        width: 92%;
+        width: 100%!important;
+        margin-right: 0px!important;
+        padding-right: 0px!important;
+    }
+
+    .th-post p{
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width:365px) {
+    .th-post img {
+        width: 20rem;
     }
 }
