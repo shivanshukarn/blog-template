@@ -1,0 +1,38 @@
+.navbar{
+    width: 100%;
+    margin: 0;
+}
+
+footer{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.nm-credits{
+    display: flex;
+    flex-direction: column;
+}
+
+.about{
+    margin: 6rem;
+    margin-top: 1rem;
+}
+
+.about h3{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.co-form{
+    margin: 8rem;
+    margin-top: 4rem;
+}
+
+.po-main{
+    display: flex;
+}
+
+.co-form h3{
+    margin-bottom: 1rem;
+    text-align: center;
+}
