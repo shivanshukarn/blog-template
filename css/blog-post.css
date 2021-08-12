@@ -11,3 +11,18 @@
 .also-read{
     margin-top: 4rem;
 }
+
+@media (max-width:900px) {
+    .th-post{
+        width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .po-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .also-read{
+        width: 92%;
+    }
+}

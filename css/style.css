@@ -36,3 +36,28 @@ footer{
     margin-bottom: 1rem;
     text-align: center;
 }
+
+@media (max-width:990px) {
+    .bd-main{
+        margin-top: 2rem;
+        /* background-color: red; */
+    }
+}
+
+@media (max-width:500px) {
+    .about{
+        /* background-color: red; */
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width:600px) {
+    .co-form{
+        /* background-color: red; */
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
